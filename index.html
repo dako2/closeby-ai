@@ -3,44 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Closeby-AI</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="chatbot.js" defer></script>
+    <title>Closeby-AI Expo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black; /* Set background to black */
+            display: flex;
+            justify-content: center;
+        }
+
+        .svg-container {
+            width: 100%; /* Scale width to browser width */
+            overflow: hidden; /* Crop the top portion */
+        }
+
+        .svg-container object {
+            width: 100%; /* Full browser width */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Remove object spacing */
+            transform: translateY(-15%); /* Crop top 15% */
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Closeby-AI</h1>
-        <p>Location & Event-Based LLM Services</p>
-    </header>
-
-    <main>
-        <section id="about">
-            <h2>What We Do</h2>
-            <p>
-                1. We develop a framework of Edge AI systems for LLM applications.<br>
-                2. We provide total site solutions for enterprise customers.<br>
-                3. We design user-end AI applications.
-            </p>
-        </section>
-
-        <!-- Additional Sections -->
-
-        <section id="chatbot">
-            <h2>Chat with Closeby-AI</h2>
-            <div id="chat-container">
-                <div id="chatbox">
-                    <div id="messages"></div>
-                </div>
-                <div id="user-input">
-                    <input type="text" id="userMessage" placeholder="Type your message here...">
-                    <button onclick="sendMessage()">Send</button>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; Dako, LLC. All Rights Reserved.</p>
-    </footer>
+    <!-- Embed the SVG file -->
+    <div class="svg-container">
+        <object type="image/svg+xml" data="expo.svg"></object>
+    </div>
 </body>
 </html>

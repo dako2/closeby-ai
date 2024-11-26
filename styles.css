@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.use-cases, .why-closeby, .edge-computing, .demos {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.use-cases h2, .why-closeby h2, .edge-computing h2, .demos h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.why-closeby ul {
+    list-style: none;
+    padding: 0;
+}
+
+.why-closeby ul li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.edge-computing .stats {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.stat-item {
+    margin: 0 20px;
+}
+
+.stat-item h3 {
+    font-size: 48px;
+    color: #ff6600;
+}
+
+.demos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.demos ul li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.partners img {
+    height: 40px;
+    margin: 0 10px;
+}
